@@ -1,16 +1,233 @@
-# React + Vite
+# 🌌 AnimeVerse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+<img src="./src/assets/Logo.png" alt="AnimeVerse Logo" width="120"/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### A Modern Anime Discovery Platform
 
-## React Compiler
+Built with **React**, **Tailwind CSS**, and the **AniList GraphQL API**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Explore trending anime, browse by genres, discover popular series & movies, and enjoy a sleek streaming-inspired UI.
 
-## Expanding the ESLint configuration
+</div>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🎬 Cinematic Intro Animation
+- 🔥 Beautiful Hero Carousel
+- 📈 Trending Anime Sidebar
+- ⭐ Popular Anime Section
+- 🎥 Anime Movies Collection
+- 📺 Anime Series Collection
+- 🏷 Browse by Genres
+- 🔍 Search Anime
+- 📱 Fully Responsive Design
+- ⚡ Fast Performance with Vite
+- 🌙 Modern Dark UI
+- ❤️ Smooth Animations
+- 🔥 Clean Component-Based Architecture
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
+
+- React.js
+- Tailwind CSS
+- JavaScript (ES6+)
+- React Router DOM
+- React Icons
+
+### API
+
+- AniList GraphQL API
+
+### Build Tool
+
+- Vite
+
+---
+
+# 📂 Project Structure
+
+```text
+AnimeVerse/
+│
+├── public/
+│   └── Favicon.png
+│
+├── src/
+│   │
+│   ├── assets/
+│   │   ├── HeroSection/
+│   │   └── Logo.png
+│   │
+│   ├── Components/
+│   │   │
+│   │   ├── AnimeDetailsSection/
+│   │   │   └── AnimeDetails.jsx
+│   │   │
+│   │   ├── AnimeSection/
+│   │   │   └── Animes.jsx
+│   │   │
+│   │   ├── Content/
+│   │   │   ├── AnimeMovies.jsx
+│   │   │   ├── AnimeSeries.jsx
+│   │   │   ├── Genre.jsx
+│   │   │   ├── PopularAnimes.jsx
+│   │   │   ├── TrendingAnimes.jsx
+│   │   │   ├── UpcomingAnimes.jsx
+│   │   │   └── UpcomingMultiAni.jsx
+│   │   │
+│   │   ├── Data/
+│   │   │   ├── GenreData.jsx
+│   │   │   └── HeroData.jsx
+│   │   │
+│   │   ├── GenreSection/
+│   │   │   ├── GenrePage.jsx
+│   │   │   ├── GenreItems.jsx
+│   │   │   └── Genres.jsx
+│   │   │
+│   │   ├── HomeSection/
+│   │   │
+│   │   ├── HeroSection/
+│   │   │   ├── HeroRight.jsx
+│   │   │   ├── HeroSection.jsx
+│   │   │   └── HeroTrendingAnimes.jsx
+│   │   │
+│   │   ├── NavbarLeft.jsx
+│   │   ├── NavbarTop.jsx
+│   │   │
+│   │   ├── Intro/
+│   │   │   ├── IntroScreen.jsx
+│   │   │   └── MovieSection.jsx
+│   │   │
+│   │   ├── Movies/
+│   │   │
+│   │   ├── PagesSection/
+│   │   │   └── Pages.jsx
+│   │   │
+│   │   ├── SearchSection/
+│   │   │   ├── SearchBar.jsx
+│   │   │   └── Series.jsx
+│   │   │
+│   │   ├── Series.jsx
+│   │   │
+│   │   ├── SignSection/
+│   │   │   └── SignIn.jsx
+│   │   │
+│   │   ├── Footer.jsx
+│   │   └── ScrollToTop.jsx
+│   │
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
+```
+
+---
+
+# 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/abhishek-akkal/AnimeVerse.git
+```
+
+Go to the project
+
+```bash
+cd AnimeVerse
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start development server
+
+```bash
+npm run dev
+```
+
+Build production
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+# 🌐 API Used
+
+AniList GraphQL API
+
+https://anilist.co/graphiql
+
+---
+
+# 📸 Screenshots
+
+> Add screenshots of your homepage, anime page, movies page, genres page, and intro animation here after deployment.
+
+---
+
+# 💡 Future Improvements
+
+- User Authentication
+- Favorites / Watchlist
+- Dark / Light Theme
+- Anime Details Page
+- Episode Information
+- Trailer Integration
+- Pagination
+- Search Suggestions
+- Advanced Filters
+- Infinite Scroll
+
+---
+
+# 👨‍💻 Author
+
+**Abhishek Akkal**
+
+- GitHub: https://github.com/abhishek-akkal
+- LinkedIn: https://www.linkedin.com/in/abhishek-akkal-0a0ab62b2/
+- X (Twitter): https://x.com/AkkalAbhishek
+
+---
+
+# ⭐ Support
+
+If you like this project, don't forget to ⭐ star the repository.
+
+It motivates me to build more amazing projects.
+
+---
+
+<div align="center">
+
+Made with ❤️ by Abhishek Akkal
+
+</div>
