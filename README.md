@@ -14,6 +14,12 @@ Explore trending anime, browse by genres, discover popular series & movies, and 
 
 ---
 
+## 🌐 Live Demo: 👇
+
+https://anime-verse-cb94.vercel.app/
+
+---
+
 ## ✨ Features
 
 - 🎬 Cinematic Intro Animation
