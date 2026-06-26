@@ -199,6 +199,12 @@ https://anilist.co/graphiql
 
 ---
 
+# 📸 Preview
+
+[Watch AnimeVerse Demo](https://www.linkedin.com/posts/abhishek-akkal-0a0ab62b2_100daysofcode-day68-reactjs-ugcPost-7476209583565336576-JaIm/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEtE-_gB_Calzo0B_hiKlaIm_F6R5PuI0mk)
+
+---
+
 # 💡 Future Improvements
 
 - User Authentication
